@@ -1,3 +1,7 @@
+.hide-mobile{
+    display: none;
+}
+
 body{
     background-color: #fffbf3;
     font-family: 'inter';

@@ -1,3 +1,7 @@
+.hide-desktop{
+    display: none;
+}
+
 body{
     background-color: #fffbf3;
     font-family: 'inter';

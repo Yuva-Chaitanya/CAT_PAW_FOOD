@@ -16,7 +16,7 @@
                 <a href="index.html" class="logo">
                     <img src="kitty_kot.svg" alt="Kitty_kot logo">
                 </a>
-                <div class="divider" class="hide mobile"></div>
+                <div class="divider" class="hide-mobile"></div>
                 <a href="#" class="home hide-mobile">Home</a>
             </div>
             <nav>
@@ -53,6 +53,23 @@
                 <div class="outer-circle"></div>
             </div>
         </div>
-    </div>    
+    </div>   
+    
+    <script>
+
+        const menu = document.querySelector('nav ul');
+        const menuBtn = document.querySelector('.menu-open');
+        const closeBtn = document.querySelector('.menu-close');
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.add('open');
+
+        });
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('open');
+
+        });
+    </script>
 </body>
 </html>

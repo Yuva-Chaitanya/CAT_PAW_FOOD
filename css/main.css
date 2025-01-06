@@ -112,7 +112,6 @@ a.primary-cta {
     width: 100%;
     margin-top: 3em;
     
-    
     img {
         top: 10%;
         left: 0;
@@ -163,7 +162,7 @@ a.primary-cta {
 
 @media (min-width: 768px) {
     .wrap{
-        margin: 4em;
+        margin: 2em 4em 2em 4em;
     }
 
     .hide-desktop{
@@ -218,18 +217,104 @@ a.primary-cta {
             }
         } 
     }
+    
+}
 
+@media (min-width: 1024px) {
+    .wrap{
+        margin: 2em 6em 2em 6em;
+    }
 
+/*    .hide-desktop{
+        display: none;
+    }
+
+    .hide-mobile
+    {
+        display: block;
+    }
+/*
+/*    .header-left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1em;
+        
+        .divider{
+            height: 35px;
+            width: 1px;
+            border-right: 1px solid grey;
+        }
+
+        .home {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 1.2rem;
+            &:hover{
+                color: #ffc44f;                
+            }
+        }
+    }
+*/
+    
+    main {
+        width: 50%;
+
+        h1, p { 
+            text-align: left;
+        }
+    
+        h1 img {
+            margin: 0;
+        }
+    
+        h1 {
+            font-size: 2em;
+        }
+    }
+
+    .cat-container {
+        width: 50%;
+        right: 3.5%;
+        top: 20%;
+        position: absolute;
+        z-index: -1;
+        
+
+        .cat {
+            margin-top: 0em;
+        }
+
+        /* .inner-circle, .outer-circle {
+            position: absolute;
+            border-radius: 50%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }  */
+        .inner-circle {
+        width: 300px;
+        height: 300px;
+         }
+
+        .outer-circle {
+            width: 600px;
+            height: 600px;
+        }   
+
+        .cat-mobile {
+            max-width: 350px;
+            height: auto;
+            z-index: 0;
+    }
+
+    
 
     
 }
 
-
-
-
-
-/* Default box-sizing */
-.element {
+/* .element {
     margin: 4em 2em 4em 2em;
     width: auto;
     height: auto;
@@ -239,12 +324,9 @@ a.primary-cta {
     font-weight: bold;
     font-size: 1.2rem;
 
-    box-sizing: content-box;
     border: 10px solid black;
-     /* Default value */
-  }
+    
+  }    */
 
-  /* With box-sizing: border-box */
-  
 
-  
+}

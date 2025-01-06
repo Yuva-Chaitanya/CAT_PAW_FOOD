@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #fffbf3;
+    background-color: #FFFBF3;
     font-family: 'inter';
     margin: 0;
     padding: 0;
@@ -18,4 +18,45 @@ header{
     justify-content: space-between;
 }
 
+
+nav ul {
+    background-color: white ;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    margin: 0;
+    height: 100vh;
+    width: 40%;
+    list-style: none;
+    text-align: right;
+    padding: 0 2em;
+    
+    li{
+        margin: 2em 0;
+        
+        &:nth-of-type(1){
+            margin-bottom: 4em;
+            }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 1.5rem;
+            &:hover{
+                color: #ffc44f;
+            }
+        }
+    }
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.open {
+    transform: translateX(0%);
+}
+.close {
+    transform: translateX(100%);
+}
 

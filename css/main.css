@@ -162,25 +162,4 @@ a.primary-cta {
 }
 
 
-
-
-
-/* Default box-sizing */
-.element {
-    margin: 4em 2em 2em 4em;
-    width: auto;
-    height: auto;
-    padding: 20px;
-
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-
-    box-sizing: content-box;
-    border: 10px solid black;
-     /* Default value */
-  }
-
-  /* With box-sizing: border-box */
-
   

@@ -230,7 +230,7 @@ a.primary-cta {
 
 /* Default box-sizing */
 .element {
-    margin: 4em 2em 2em 4em;
+    margin: 4em 2em 4em 2em;
     width: auto;
     height: auto;
     padding: 20px;
@@ -245,5 +245,6 @@ a.primary-cta {
   }
 
   /* With box-sizing: border-box */
+  
 
   

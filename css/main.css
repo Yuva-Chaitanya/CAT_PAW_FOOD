@@ -95,6 +95,7 @@ a.primary-cta {
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+
     margin-top: 2em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease-in-out;
@@ -160,7 +161,11 @@ a.primary-cta {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
+    /* body {
+        background-color: turquoise;
+    } */
+
     .wrap{
         margin: 2em 4em 2em 4em;
     }
@@ -221,6 +226,9 @@ a.primary-cta {
 }
 
 @media (min-width: 1024px) {
+    /* body{
+        background-color: purple;
+    } */
     .wrap{
         margin: 2em 6em 2em 6em;
     }
@@ -272,12 +280,17 @@ a.primary-cta {
         h1 {
             font-size: 2em;
         }
+
+        a.primary-cta {
+            width: 50%;
+        }
+
     }
 
     .cat-container {
         width: 50%;
         right: 3.5%;
-        top: 20%;
+        top: 22%;
         position: absolute;
         z-index: -1;
         
@@ -329,4 +342,39 @@ a.primary-cta {
   }    */
 
 
+}
+
+@media (min-width: 1400px) {
+    /* body {
+        background-color:violet
+    }; */
+    
+    main {
+                
+        width: 40%;
+        margin: 0 1%;
+    }
+
+    .cat-container {
+        width: 50%;
+        top: 25%;
+        margin: 1%;
+    }
+    .cat {
+            .inner-circle {
+            width: 400px;
+            height: 400px;
+             }
+    
+            .outer-circle {
+                width: 800px;
+                height: 800px;
+            }  
+            
+            .cat-mobile {
+                max-width: 450px;
+                height: auto;
+                z-index: 0;
+            }
+    }
 }

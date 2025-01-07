@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .but {
+
+            background-color: #ffc44f;
+                color: black;
+                border-color: transparent;
+
+                width: 100%;
+                padding: 1em;
+
+                display: block;
+                box-sizing: border-box;
+                border-radius: 5px;
+                text-decoration: none;
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.2rem;
+
+                margin-top: 2em;
+                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+                transition: background-color 0.3s ease-in-out;
+                
+                   
+            /* padding: 10px;
+            border: none;
+            background: #333;
+            color: #fff;
+            border-radius: 5px;
+          
+            cursor: pointer; */
+        }
+        .but:hover {
+            background-color: #ffb300;
+            color: white; }
+        
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="media/kitty_kot.svg" alt="Kitty_kot logo">
+                </a>
+                <div class="divider" class="hide-mobile"></div>
+                <a href="#" class="home hide-mobile">Home</a>
+            </div>
+            <nav>
+                <a href="#" class="menu-open hide-desktop">
+                    <img src="media/menu.svg" alt="Opne menu">
+                </a>
+                <ul>
+                    <li>
+                        <a href="#" class="menu-close hide-desktop" >
+                            <img src="media/close.svg" alt="Close menu">
+                        </a>
+                    </li>
+                    <li><a href="ourfood.html">Our Food</a></li>             
+                    <li><a href="ingrediants.html">Ingrediants</a></li>             
+                    <li><a href="studies.html">Studies</a></li>             
+                    <li><a href="faq.html">FAQ</a></li>             
+                </ul>
+            </nav>
+        </header>
+
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button class="but" type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
